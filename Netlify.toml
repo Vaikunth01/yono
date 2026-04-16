@@ -1,0 +1,10 @@
+[build]
+  # The folder you want Netlify to enter before building
+  base = "dist/"
+
+  # The folder containing your index.html (relative to base)
+  publish = "dist/login.html"
+
+  # The command needed to build your site
+  command = "npm run build"
+  
